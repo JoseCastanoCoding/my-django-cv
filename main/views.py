@@ -1,12 +1,6 @@
 from django.shortcuts import render
 from django.contrib import messages
-from .models import (
-        UserProfile,
-        Blog,
-        Portfolio,
-        Testimonial,
-        Certificate
-)
+from .models import (UserProfile, Blog, Portfolio, Testimonial, Certificate)
 
 from django.views import generic
 

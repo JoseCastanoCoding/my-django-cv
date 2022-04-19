@@ -29,6 +29,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+CSRF_TRUSTED_ORIGINS = []
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -125,6 +127,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
     os.path.join(BASE_DIR, 'media')
 ]
+
 
 
 STATIC_URL = '/static/'
